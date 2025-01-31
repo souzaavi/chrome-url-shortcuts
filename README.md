@@ -6,6 +6,26 @@
 
 A Flutter-based Chrome extension that allows you to create custom URL shortcuts for quick navigation. Use shortcuts like "g" for Google search or "yt" for YouTube search directly from Chrome's address bar.
 
+## Quick Installation (No Flutter Required)
+
+1. Download this repository:
+   - Click the green "Code" button above
+   - Select "Download ZIP"
+   - Extract the ZIP file
+
+2. Install in Chrome:
+   - Open Chrome and go to `chrome://extensions/`
+   - Enable "Developer mode" in the top-right corner
+   - Click "Load unpacked"
+   - Navigate to the extracted folder and select the `build/web` directory
+   - The extension should appear in your Chrome toolbar
+
+That's it! Skip to the [Using the Extension](#using-the-extension) section to learn how to use it.
+
+## Developer Installation (With Flutter)
+
+If you want to modify the extension or contribute to its development, follow these steps:
+
 ## Features
 
 - Create custom URL shortcuts with descriptions
