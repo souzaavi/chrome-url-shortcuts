@@ -1,5 +1,9 @@
 # URL Shortcuts Chrome Extension
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=flat&logo=Flutter&logoColor=white)](https://flutter.dev)
+[![Chrome Web Store](https://img.shields.io/badge/Chrome-Extension-green.svg)](https://github.com/souzaavi/chrome-url-shortcuts)
+
 A Flutter-based Chrome extension that allows you to create custom URL shortcuts for quick navigation. Use shortcuts like "g" for Google search or "yt" for YouTube search directly from Chrome's address bar.
 
 ## Features
@@ -34,8 +38,8 @@ A Flutter-based Chrome extension that allows you to create custom URL shortcuts 
 
 1. Clone the repository:
    ```bash
-   git clone <your-repo-url>
-   cd chrome_search_shortcuts
+   git clone https://github.com/souzaavi/chrome-url-shortcuts.git
+   cd chrome-url-shortcuts
    ```
 
 2. Get dependencies:
@@ -153,10 +157,18 @@ flutter build web --release --web-renderer html --csp --base-href /
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
 - Built with Flutter
 - Uses Chrome Extension APIs
 - Inspired by browser search shortcuts
+
+## Author
+
+[souzaavi](https://github.com/souzaavi)
+
+## Support
+
+If you encounter any issues or have suggestions, please [create an issue](https://github.com/souzaavi/chrome-url-shortcuts/issues).
